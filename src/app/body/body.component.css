@@ -1,0 +1,29 @@
+.div1{
+    width: 25%;
+    
+}
+.container{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    width: 50%; 
+}
+
+.papacito{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch; 
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+}

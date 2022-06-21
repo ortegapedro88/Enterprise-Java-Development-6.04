@@ -1,0 +1,21 @@
+<div class="papacito">
+
+    <div class="container">
+        <div class="div1" (mouseenter)="hover()" (mouseleave)="hover()" [ngStyle]="{'background-color': backCol, 'color': color}">
+            <h1>Title 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti, iste sed quos autem beatae facere amet magni soluta. At eligendi ullam nobis alias odio dolorum sint! Distinctio, ad modi?</p>
+        </div>
+        <div class="div1" (mouseenter)="hover1()" (mouseleave)="hover1()" [ngStyle]="{'background-color': backCol1, 'color': color1}">
+            <h1>Title 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti, iste sed quos autem beatae facere amet magni soluta. At eligendi ullam nobis alias odio dolorum sint! Distinctio, ad modi?</p>
+             </div>
+        <div class="div1" (mouseenter)="hover2()" (mouseleave)="hover2()" [ngStyle]="{'background-color': backCol2, 'color': color2}">
+            <h1>Title 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti, iste sed quos autem beatae facere amet magni soluta. At eligendi ullam nobis alias odio dolorum sint! Distinctio, ad modi?</p>
+        </div>
+    </div>
+
+    <div>
+        <button (click)="colorblindMode()" type="button" class="btn btn-outline-dark">{{buttonText}}</button>
+    </div>
+</div>
